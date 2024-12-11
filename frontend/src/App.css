@@ -1,0 +1,72 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+form.upload-form {
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.results {
+  margin-top: 20px;
+  border: 1px solid #e9ecef;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+}
+
+h2, h3 {
+  margin: 10px 0;
+  color: #495057;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 1.2rem;
+}
+
+.loading {
+  color: #007bff;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.count-results, .size-results, .condition-results {
+  margin-top: 10px;
+}
+
+.count-results p, .size-results p, .condition-results p {
+  font-size: 1rem;
+  color: #343a40;
+}
+
+.size-results {
+  margin-top: 10px;
+}
+
+.condition-results {
+  color: #e74c3c;
+  margin-top: 10px;
+}
